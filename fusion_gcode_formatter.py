@@ -121,7 +121,6 @@ def insert_standard_blocks(program_number, lines):
 
     footer = [
         "",
-        "G97G30U0W0",
         "M01",
         "M05S1500",
         "G28U0W0M40",
