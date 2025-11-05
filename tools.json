@@ -1,0 +1,24 @@
+{
+  "ROUGH_OD": {
+    "display": "(.8 ROUGH TURN)",
+    "toolID": "01"
+  },
+
+  "ROUGH_ID":{
+    "display": "(.8 ROUGH BORE)",
+    "toolID": "04"
+  },
+
+  "UDRILL30": {
+    "display": "(30MM U-DRILL)",
+    "toolID": "30"
+  },
+
+  "FINISH_OD": {
+    "display": "(OD FINISH TURN)",
+    "extra_lines": [
+      "G99",
+      "G97S250F0.08"
+    ]
+  }
+}
