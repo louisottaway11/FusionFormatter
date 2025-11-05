@@ -19,3 +19,7 @@ dist/
 # OS/system junk
 .DS_Store
 Thumbs.db
+
+
+# Ignore generated outputs
+Output
