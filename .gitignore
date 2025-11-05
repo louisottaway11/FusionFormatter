@@ -20,6 +20,8 @@ dist/
 .DS_Store
 Thumbs.db
 
-
 # Ignore generated outputs
 Output
+
+.vscode/*
+!.vscode/settings.json
