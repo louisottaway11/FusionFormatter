@@ -1,7 +1,17 @@
 {
-  "ROUGH_OD": {
+  "ROUGH_OD_.8": {
     "display": "(.8 ROUGH TURN)",
     "toolID": "01"
+  },
+
+  "ROUGH_ID_":{
+    "display": "(.8 ROUGH BORE)",
+    "toolID": "04"
+  },
+
+  "ROUGH_OD_PROFILE":{
+    "display": "(.8 ROUGH BORE)",
+    "toolID": "04"
   },
 
   "ROUGH_ID":{
