@@ -10,10 +10,10 @@ It automatically applies your preferred start/end blocks, removes redundant setu
 - Adds consistent **startup and shutdown blocks**
 - Removes redundant setup codes
 - Strips pre-tool preamble and keeps only machining-relevant lines
-- Ensures a **single `%`** at the end of the file
+- Ensures a **single `%`** at the start and end of the file
 - Outputs cleaned files to a dedicated `Output/` folder
 - Cross-platform: works on **Windows** and **macOS**
-
+- Integrates a .json file, utilised as a tool look up library
 ---
 
 ## How to Use
