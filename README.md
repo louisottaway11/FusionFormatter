@@ -1,6 +1,6 @@
 # 🌀 FusionFormatter
 
-**FusionFormatter** is a structured G-code cleaner that standardizes and simplifies Fusion 360 post-processed NC programs for CNC lathes using FANUC-style controls.  
+**FusionFormatter** is a structured G-code cleaner that standardises and simplifies Fusion 360 post-processed NC programs for CNC lathes using FANUC-style controls.  
 It automatically applies your preferred start/end blocks, removes redundant setup codes, and outputs a clean, production-ready `.nc` file.
 
 ---
@@ -8,7 +8,7 @@ It automatically applies your preferred start/end blocks, removes redundant setu
 ## 🚀 Features
 
 - Adds consistent **startup and shutdown blocks**
-- Removes redundant setup codes (`G80`, `G54`, `G50`, `G90`, etc.)
+- Removes redundant setup codes
 - Strips pre-tool preamble and keeps only machining-relevant lines
 - Ensures a **single `%`** at the end of the file
 - Outputs cleaned files to a dedicated `Output/` folder
