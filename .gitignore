@@ -1,27 +1,40 @@
+# ================================
 # Python cache and compiled files
+# ================================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.egg-info/
 
-# Virtual environments (keep local only)
+# ================================
+# Virtual environments (local only)
+# ================================
 venv/
 .venv/
 env/
 .env/
 
+# ================================
 # Build and distribution folders
+# ================================
 build/
 dist/
 .eggs/
 
-# OS/system junk
+# ================================
+# OS / Editor junk
+# ================================
 .DS_Store
 Thumbs.db
 
-# Ignore generated outputs
-Output
+# ================================
+# Ignore generated G-code outputs
+# ================================
+Output/
 
+# ================================
+# VS Code (keep workspace settings only)
+# ================================
 .vscode/*
 !.vscode/settings.json
