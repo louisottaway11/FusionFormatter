@@ -1,34 +1,50 @@
 {
-  "ROUGH_OD_.8": {
+  "ROUGH_OD.8": {
     "display": "(.8 ROUGH TURN)",
-    "toolID": "01"
+    "toolID": "01",
+    "speed": "200",
+    "feed": ".25"
   },
-
-  "ROUGH_ID_":{
-    "display": "(.8 ROUGH BORE)",
-    "toolID": "04"
+  "FINISH_OD.4": {
+    "display": "(.4 FINISH TURN)",
+    "toolID": "??",
+    "speed": "250",
+    "feed": ".1"
   },
-
-  "ROUGH_OD_PROFILE":{
-    "display": "(.8 ROUGH BORE)",
-    "toolID": "04"
+  "ROUGH_OD_PRO.8": {
+    "display": "(.8 ROUGH PRO)",
+    "toolID": "??",
+    "speed": "200",
+    "feed": ".25"
   },
-
-  "ROUGH_ID":{
-    "display": "(.8 ROUGH BORE)",
-    "toolID": "04"
+  "FINISH_OD_PRO.4": {
+    "display": "(.4 FINISH PRO)",
+    "toolID": "??",
+    "speed": "250",
+    "feed": ".1"
   },
-
+  "ROUGH_ID.8.25": {
+    "display": "(.8 ROUGH BORE 25MM BAR)",
+    "toolID": "??",
+    "speed": "250",
+    "feed": ".25"
+  },
+  "WALTER.8": {
+    "display": "(.8 ROUGH ID 20MM WALTER)",
+    "toolID": "??",
+    "speed": "200",
+    "feed": ".25"
+  },
+  "FINISH_ID.4.16": {
+    "display": "(.4 FINISH BORE 16MM BAR)",
+    "toolID": "??",
+    "speed": "250",
+    "feed": ".1"
+  },
   "UDRILL30": {
     "display": "(30MM U-DRILL)",
-    "toolID": "30"
-  },
-
-  "FINISH_OD": {
-    "display": "(OD FINISH TURN)",
-    "extra_lines": [
-      "G99",
-      "G97S250F0.08"
-    ]
+    "toolID": "??",
+    "speed": "1000",
+    "feed": ".1"
   }
 }
