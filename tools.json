@@ -3,48 +3,70 @@
     "display": "(.8 ROUGH TURN)",
     "toolID": "01",
     "speed": "200",
-    "feed": ".25"
+    "feed": ".25",
+    "type": "G96"
   },
   "FINISH_OD.4": {
     "display": "(.4 FINISH TURN)",
     "toolID": "??",
     "speed": "250",
-    "feed": ".1"
+    "feed": ".1",
+    "type": "G96"
   },
   "ROUGH_OD_PRO.8": {
     "display": "(.8 ROUGH PRO)",
     "toolID": "??",
     "speed": "200",
-    "feed": ".25"
+    "feed": ".25",
+    "type": "G96"
   },
   "FINISH_OD_PRO.4": {
     "display": "(.4 FINISH PRO)",
     "toolID": "??",
     "speed": "250",
-    "feed": ".1"
+    "feed": ".1",
+    "type": "G96"
   },
   "ROUGH_ID.8.25": {
     "display": "(.8 ROUGH BORE 25MM BAR)",
     "toolID": "??",
     "speed": "250",
-    "feed": ".25"
+    "feed": ".25",
+    "type": "G96"
   },
   "WALTER.8": {
     "display": "(.8 ROUGH ID 20MM WALTER)",
     "toolID": "??",
     "speed": "200",
-    "feed": ".25"
+    "feed": ".25",
+    "type": "G96"
   },
   "FINISH_ID.4.16": {
     "display": "(.4 FINISH BORE 16MM BAR)",
     "toolID": "??",
     "speed": "250",
-    "feed": ".1"
+    "feed": ".1",
+    "type": "G96"
   },
   "UDRILL30": {
     "display": "(30MM U-DRILL)",
     "toolID": "??",
     "speed": "1000",
-    "feed": ".1"
+    "feed": ".1",
+    "type": "G97"
+  },
+  "UDRILL40": {
+    "display": "(40MM U-DRILL)",
+    "toolID": "??",
+    "speed": "1000",
+    "feed": ".1",
+    "type": "G97"
+  },
+  "UDRILL50": {
+    "display": "(50MM U-DRILL)",
+    "toolID": "??",
+    "speed": "1000",
+    "feed": ".1",
+    "type": "G97"
   }
 }
