@@ -13,7 +13,7 @@ It automatically applies your preferred start/end blocks, removes redundant setu
 - Ensures a **single `%`** at the start and end of the file
 - Outputs cleaned files to a dedicated `Output/` folder
 - Cross-platform: works on **Windows** and **macOS**
-- Integrates a .json file, utilised as a tool look up library
+- Integrates a .json file, utilised as a **tool look up library**
 ---
 
 ## How to Use
